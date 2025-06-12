@@ -1,17 +1,13 @@
 using System.Collections.Generic;
+using App.Scripts.Runtime.Location;
 using UnityEngine;
 
 public class PlatformGenerator : MonoBehaviour
 {
     [Header("General Settings:")]
-    [Space]
-    
     [SerializeField] private Transform _target;
     
-    [Space]
     [Header("Spawn Settings:")]
-    [Space]
-    
     [SerializeField] private Platform _platfromPrefab;
     
     [SerializeField] private int _stepsCountToSpawn;

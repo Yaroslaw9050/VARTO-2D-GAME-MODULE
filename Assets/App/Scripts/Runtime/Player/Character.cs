@@ -1,10 +1,8 @@
-using System;
 using UnityEngine;
-using UnityEngine.EventSystems;
 
-namespace Runtime
+namespace App.Scripts.Runtime.Player
 {
-    public class Player : MonoBehaviour
+    public class Character : MonoBehaviour
     {
         [SerializeField] private Rigidbody2D _rigidbody;
         [SerializeField] private float _jumpForce = 10;
